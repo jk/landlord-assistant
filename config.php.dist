@@ -1,0 +1,10 @@
+<?php
+date_default_timezone_set('Europe/Berlin');
+
+// Foursquare OAuth credentials, you get them on https://de.foursquare.com/developers/apps
+define('CLIENT_ID', 'QVWZETWZI3RLENLHKLDVQXPOWJE4WBL5KHXEVLILWQVCXP21');
+define('CLIENT_SECRET', 'NM1XN41ARKX5E3ACUZLJSV2S5OBJNYUQONWHTTHUYVE03Z04');
+
+// You need a valid Foursquare OAuth Token, you can sniff your landlord communication or implement
+// the OAuth dance yourself and use the given token
+define('LANDLORD_4SQ_TOKEN', '3F3TASRDK2WIW2SB5XPLNI0ZORRHLXXN3NHY3WRDBNWSDC3C');
